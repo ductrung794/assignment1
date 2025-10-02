@@ -7,7 +7,7 @@ package exe;
 public class Caculate {
     private Double caculate(SIGN sign, Double arg1, Double arg2){
         switch (sign) {     
-            case Multiply: 
+            case Divide: 
                 return arg1/arg2;   
             default:
                 break;
