@@ -10,7 +10,9 @@ public class Caculate {
             case Plus: 
                 return arg1 + arg2;   
             case Minus: 
-                return arg1 - arg2;   
+                return arg1 - arg2;       
+            case Multiply: 
+                return arg1 * arg2;   
             default:
                 break;
         }
