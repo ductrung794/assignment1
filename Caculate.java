@@ -8,7 +8,9 @@ public class Caculate {
     private Double caculate(SIGN sign, Double arg1, Double arg2){
         switch (sign) {     
             case Divide: 
-                return arg1/arg2;   
+                return arg1/arg2;     
+            case Plus: 
+                return arg1 + arg2;      
             default:
                 break;
         }
