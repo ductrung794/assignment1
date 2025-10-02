@@ -6,7 +6,11 @@ package exe;
 
 public class Caculate {
     private Double caculate(SIGN sign, Double arg1, Double arg2){
-        switch (sign) {     
+        switch (sign) {  
+            case Plus: 
+                return arg1 + arg2;   
+            case Minus: 
+                return arg1 - arg2;       
             case Multiply: 
                 return arg1 * arg2;   
             default:
